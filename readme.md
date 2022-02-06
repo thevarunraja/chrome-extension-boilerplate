@@ -20,4 +20,4 @@ Below is a list of commands you will probably find useful:
 
 `npm run build`
 
-- builds tghe project and places the code in the `dist` folder
+- builds the project and places the code in the `dist` folder
