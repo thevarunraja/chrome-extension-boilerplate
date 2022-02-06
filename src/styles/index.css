@@ -1,0 +1,7 @@
+/* Add your styles here. Supports nesting. */
+
+body {
+  div {
+    background: "red";
+  }
+}

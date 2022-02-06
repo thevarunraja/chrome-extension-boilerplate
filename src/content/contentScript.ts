@@ -1,5 +1,5 @@
 export default function init() {
-  console.log("Start writing contentScript JavaScript code");
+  console.log("log from contentScript.ts");
 }
 
 void init();
