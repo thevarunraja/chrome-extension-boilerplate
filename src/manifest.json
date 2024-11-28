@@ -1,6 +1,6 @@
 {
-  "name": "awesome-extenstion",
-  "description": "description of your awesome extension",
+  "name": "my-extension",
+  "description": "description of your extension",
   "version": "0.1",
   "manifest_version": 3,
   "icons": {
@@ -8,12 +8,16 @@
     "48": "48.png",
     "128": "128.png"
   },
+  "permissions": ["sidePanel"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "/background/background.js"
   },
   "action": {
     "default_popup": "popup/index.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel/index.html"
   },
   "content_scripts": [
     {

@@ -1,7 +1,7 @@
-/* Add your styles here. Supports nesting. */
+/* 
+ * Add custom styles for any website
+ * Supports nesting
+ */
 
-body {
-  div {
-    background: "red";
-  }
+div {
 }
